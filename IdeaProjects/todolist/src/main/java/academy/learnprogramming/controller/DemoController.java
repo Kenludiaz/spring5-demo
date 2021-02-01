@@ -28,7 +28,7 @@ public class DemoController {
 
     @GetMapping("welcome")
     public String welcome(Model model) {
-        String user = "Tim";
+        String user = "Time";
         model.addAttribute( "userMessage", service.getHelloMessage(user));
 
         log.info("model = {}", model);
