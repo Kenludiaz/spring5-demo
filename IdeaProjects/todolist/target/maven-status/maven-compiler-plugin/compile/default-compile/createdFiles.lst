@@ -1,0 +1,10 @@
+academy/learnprogramming/Service/DemoService.class
+academy/learnprogramming/util/Mappings.class
+academy/learnprogramming/controller/TodoItemController.class
+academy/learnprogramming/model/TodoData.class
+academy/learnprogramming/Service/DemoServiceImpl.class
+academy/learnprogramming/controller/DemoController.class
+academy/learnprogramming/config/WebAppInitializer.class
+academy/learnprogramming/config/WebConfig.class
+academy/learnprogramming/model/TodoItem.class
+academy/learnprogramming/util/ViewNames.class
