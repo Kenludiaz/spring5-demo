@@ -1,4 +1,4 @@
-/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/Service/DemoService.java
+/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/service/TodoItemService.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/util/ViewNames.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/config/WebAppInitializer.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/config/WebConfig.java
@@ -6,5 +6,7 @@
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/model/TodoData.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/controller/DemoController.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/model/TodoItem.java
-/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/Service/DemoServiceImpl.java
+/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/service/TodoItemServiceImpl.java
+/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/service/DemoServiceImpl.java
 /home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/controller/TodoItemController.java
+/home/ken/IdeaProjects/todolist/src/main/java/academy/learnprogramming/service/DemoService.java

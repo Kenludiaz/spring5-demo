@@ -1,8 +1,10 @@
 package academy.learnprogramming.controller;
 
 import academy.learnprogramming.model.TodoData;
+import academy.learnprogramming.service.TodoItemService;
 import academy.learnprogramming.util.Mappings;
 import academy.learnprogramming.util.ViewNames;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -10,11 +12,18 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 @Controller
 public class TodoItemController {
 
-    // == model attributes ==
-    @ModelAttribute
-    public TodoData todoData() {
-        return new TodoData();
+    private final TodoItemService todoService;
+
+    @Autowired
+    public TodoItemController(TodoItemService todoService) {
+        this.todoService = todoService;
     }
+
+    @ModelAttribute
+    public TodoData todoData(TodoItemService todoService) {
+        return todoService.getData();
+    }
+    // == model attributes ==
 
     // == handler methods ==
     // http://localhost:8080/todo-list/items
