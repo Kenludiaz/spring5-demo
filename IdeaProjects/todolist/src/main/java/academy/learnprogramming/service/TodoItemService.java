@@ -4,13 +4,14 @@ import academy.learnprogramming.model.TodoData;
 import academy.learnprogramming.model.TodoItem;
 
 public interface TodoItemService {
-    public void addItem(TodoItem item);
 
-    public void removeItem(int id);
+    void addItem(TodoItem toAdd);
 
-    public TodoItem getItem(int id);
+    void removeItem(int id);
 
-    public void updateItem(TodoItem item);
+    TodoItem getItem(int id);
 
-    public TodoData getData();
+    void updateItem(TodoItem toUpdate);
+
+    TodoData getData();
 }
